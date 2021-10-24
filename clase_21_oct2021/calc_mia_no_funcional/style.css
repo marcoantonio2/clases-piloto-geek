@@ -1,0 +1,55 @@
+.calc {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(127, 238, 223);
+    width: 350px;
+    height: 550px;
+    border-radius: 25px;
+}
+
+.calc td button {
+    display: block;
+    width: 70px;
+    height: 70px;
+    font-size: 25px;
+}
+
+.calc button {
+    border: 1px solid #5d89cf;
+    padding: 10px;
+    background-color: #3ebddd;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: all 0.5s;
+    font-weight: 600;
+}
+
+.calc button:hover {
+    color: rgb(224, 183, 183);
+    background-color: rgb(86, 122, 230);
+    box-shadow: 0px 0px 20px 5px rgb(53, 85, 182);
+}
+
+#creditos {
+    display: block;
+    padding-top: 20px;
+    color: rgb(232, 254, 255);
+    text-align: center;
+    width: 300px;
+    color: rgb(2, 2, 39);
+}
+
+#resul {
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+    width: 300px;
+    height: 100px;
+    line-height: 100px;
+    background-color: rgb(175, 250, 240);
+    border-radius: 25px;
+    overflow-y: scroll;
+}

@@ -11,41 +11,40 @@
 
 <body onload="init();">
 
-    <table class="calc">
-        <tr>
-            <td colspan="4">
-                <span id="resul"></span>
-            </td>
-        </tr>
-        <tr>
-            <td><button id="7">7</button></td>
-            <td><button id="8">8</button></td>
-            <td><button id="9">9</button></td>
-            <td><button id="div">/</button></td>
-        </tr>
-        <tr>
-            <td><button id="4">4</button></td>
-            <td><button id="5">5</button></td>
-            <td><button id="6">6</button></td>
-            <td><button id="multi">*</button></td>
-        </tr>
-        <tr>
-            <td><button id="1">1</button></td>
-            <td><button id="2">2</button></td>
-            <td><button id="3">3</button></td>
-            <td><button id="resta">-</button></td>
-        </tr>
-        <tr>
-            <td><button id="igual">=</button></td>
-            <td><button id="reset">C</button></td>
-            <td><button id="0">0</button></td>
-            <td><button id="suma">+</button></td>
-        </tr>
-        <tr>
-            <td colspan="4"><span id="creditos">Marco Antonio Pineda Pulgarin</span></td>
-        </tr>
-    </table>
+    <form>
 
+        <div class="calculator">
+            <div class="screen" id="screen"></div>
+            <ul id="buttons" class="buttons">
+                <!-- data key es como el id (similar) -->
+                <li><a href="#" data-key="clear">C</a></li>
+                <li><a href="#" data-key="-">-</a></li>
+                <li><a href="#" data-key="/">/</a></li>
+                <li><a href="#" data-key="*">x</a></li>
+                <li><a href="#" data-key="7">7</a></li>
+                <li><a href="#" data-key="8">8</a></li>
+                <li><a href="#" data-key="9">9</a></li>
+                <li><a href="#" data-key="-">-</a></li>
+                <li><a href="#" data-key="4">4</a></li>
+                <li><a href="#" data-key="5">5</a></li>
+                <li><a href="#" data-key="6">6</a></li>
+                <li><a href="#" data-key="+">+</a></li>
+                <li><a href="#" data-key="1">1</a></li>
+                <li><a href="#" data-key="2">2</a></li>
+                <li><a href="#" data-key="3">3</a></li>
+                <li><a href="#" data-key="equal" class="equal tall">=</a></li>
+                <li><a href="#" data-key="0" class="wide shift">0</a></li>
+                <li><a href="#" data-key="." class="shift">.</a></li>
+            </ul>
+        </div>
+        </div>
+    </form>
+    <center>
+        <div id="creditos">basado y estudiado en <a
+                href="https://www.jose-aguilar.com/blog/calculadora-simple-con-javascript/#codesyntax_2">Jose Aguilar
+                Blog</a> (estudiado todo lo puesto aca sabiendo que es lo que hace)</div>
+        <div id="creditos">Marco Antonio Pineda Pulgarin</div>
+    </center>
     <script src="./script/script.js"></script>
 </body>
 
